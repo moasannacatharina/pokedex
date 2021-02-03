@@ -2,7 +2,9 @@
 require __DIR__ . '/header.php';
 ?>
 
-<h1><?= $title ?></h1>
+<header>
+    <h1><?= $title ?></h1>
+</header>
 <ul>
     <?php foreach ($monsters as $monster) : ?>
         <li>
